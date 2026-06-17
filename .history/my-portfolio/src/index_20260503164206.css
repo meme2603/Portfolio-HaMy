@@ -1,0 +1,9 @@
+@import "tailwindcss";
+@theme {
+  --primary-cream: #faf9f6;
+  --secondary-red: #9c0000;
+  --text-black: #121212;
+
+  --font-main: "Poppins", sans-serif;
+  --font-logo: "Akshar", sans-serif;
+}

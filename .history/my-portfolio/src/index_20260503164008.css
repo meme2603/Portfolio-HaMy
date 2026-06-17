@@ -1,0 +1,4 @@
+@import "tailwindcss";
+@theme {
+  --color-primary-cream: #f5f5dc; /* Thay mã màu chuẩn của bà vào đây nha */
+}

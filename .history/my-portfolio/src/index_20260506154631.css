@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@theme {
+  --color-primary: #9c0000;
+  --color-background: #faf9f6;
+  --color-accent: #4a5568;
+  --color-text: #121212;
+
+  --font-family-sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-family-serif: "Georgia", serif;
+}

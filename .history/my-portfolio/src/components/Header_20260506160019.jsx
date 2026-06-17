@@ -1,0 +1,94 @@
+function Header() {
+  return (
+    <header className="fixed top-0 left-0 w-full h-24 bg-background border-b border-gray-300 z-50">
+      <div className="max-w-7xl mx-auto h-full px-6 flex justify-between items-center">
+        <div className="shrink-0">
+          <a href="/" className="text-4xl text-primary font-semibold font-logo">
+            HA MY
+          </a>
+        </div>
+
+        <nav className="hidden md:block">
+          <ul className="flex space-x-8">
+            <li>
+              <a
+                href="#about"
+                className="
+              text-primary
+                text-[20px]
+                relative
+                group
+                transition-colors"
+              >
+                About
+                <span
+                  class="
+                absolute 
+                left-0 
+                bottom-[-4px] 
+                w-0 
+                h-[1px] 
+                bg-primary
+                transition-all 
+                duration-300
+                group-hover:w-full
+                "
+                ></span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="#projects"
+                className="text-primary
+                text-[20px]
+                relative
+                group
+                transition-colors"
+              >
+                Projects
+                <span
+                  class="
+                absolute 
+                left-0 
+                bottom-[-4px] 
+                w-0 
+                h-[1px] 
+                bg-primary
+                transition-all 
+                duration-300
+                group-hover:w-full
+                "
+                ></span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="#contact"
+                className="text-primary text-[20px] relative
+                group
+                transition-colors"
+              >
+                Contact
+                <span
+                  class="
+                absolute 
+                left-0 
+                bottom-[-4px] 
+                w-0 
+                h-[1px] 
+                bg-primary
+                transition-all 
+                duration-300
+                group-hover:w-full
+                "
+                ></span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+  );
+}
+
+export default Header;

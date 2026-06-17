@@ -1,0 +1,16 @@
+@import "tailwindcss";
+@theme {
+  extend: {
+    colors: {
+      primary: "#1E90FF",
+      secondary: "#FF69B4",
+      accent: "#32CD32",
+      background: "#F0F8FF",
+      text: "#333333",
+    },
+    fontFamily: {
+      sans: ["Helvetica", "Arial", "sans-serif"],
+      serif: ["Georgia", "serif"],
+    },
+  },
+}

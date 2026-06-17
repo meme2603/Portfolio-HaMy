@@ -1,0 +1,123 @@
+import avatarImg from "../assets/avatar.png";
+
+function Hero() {
+  return (
+    // Giữ nguyên cấu trúc ẩn phần thừa của bà
+    <section className="relative w-full h-[calc(100vh-88px)] mt-24 bg-background overflow-hidden flex flex-col items-center justify-between pb-4">
+      {/* 1. CHỮ PORTFOLIO TRÊN CÙNG */}
+      <div className="w-full pt-6 pb-2 z-20 shrink-0">
+        <h1
+          className="
+            text-[80px]
+            md:text-[130px]
+            lg:text-[200px]
+            font-bold
+            font-akshar
+            text-center
+            leading-[0.7]
+            text-font
+            tracking-tighter
+          "
+        >
+          PORTFOLIO
+        </h1>
+      </div>
+
+      {/* 2. KHỐI GIỮA: THÊM flex-1 VÀ min-h-0 ĐỂ ÉP ĐỐNG NÀY TỰ CO GIÃN THÔNG MINH */}
+      <div className="relative w-full max-w-[1440px] flex-1 min-h-0 flex flex-col md:flex-row items-center md:items-end justify-center z-30 px-6 pb-12 md:pb-20">
+        {/* LEFT */}
+        <div className="flex-1 flex justify-center pb-4 md:pb-12">
+          <div className="flex flex-col items-center text-center space-y-1">
+            <p className="text-sm md:text-base font-poppins">Hi!</p>
+            <p className="text-sm md:text-base font-poppins">
+              My name is{" "}
+              <span className="font-semibold text-base md:text-lg font-poppins">
+                NGUYEN THI HA MY
+              </span>
+            </p>
+            <p className="text-sm md:text-base font-light">I'm from VietNam</p>
+          </div>
+        </div>
+
+        {/* AVATAR TRUNG TÂM: Đổi h cứng thành max-h để tự co giãn theo màn hình */}
+        <div className="relative flex justify-center h-full max-h-[45vh] lg:max-h-[52vh] shrink-0 z-30">
+          <img
+            src={avatarImg}
+            alt="Ha My"
+            className="
+              w-auto 
+              h-full 
+              object-contain
+            "
+          />
+        </div>
+
+        {/* RIGHT */}
+        <div className="flex-1 flex justify-center pb-4 md:pb-12">
+          <div className="flex flex-col text-center space-y-1">
+            <p className="text-sm md:text-base font-light">
+              I'm{" "}
+              <span className="font-semibold text-sm md:text-base">
+                UI/UX Designer
+              </span>{" "}
+              and
+            </p>
+            <p className="text-sm md:text-base font-semibold font-poppins">
+              Design Engineer
+            </p>
+            <p className="text-xs md:text-sm font-light font-poppins">
+              Now I'm living in Japan.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      {/* 3. THANH ĐEN ĐÁY TRANG */}
+      <div className="absolute h-14 bottom-0 left-0 w-full bg-font py-3 md:py-4 z-10"></div>
+
+      {/* 4. CHỮ DESIGNER CỐ ĐỊNH Ở ĐÁY */}
+      <div className="absolute bottom-4 left-0 w-full z-40 pointer-events-none">
+        <div className="relative flex justify-center leading-none">
+          <span
+            className="
+              absolute
+              inset-0
+              flex
+              justify-center
+              translate-x-[4px]
+              translate-y-[4px]
+              text-[60px]
+              sm:text-[80px]
+              md:text-[110px]
+              lg:text-[180px]
+              font-bold
+              font-akshar
+              tracking-tighter
+              text-font
+            "
+          >
+            Designer
+          </span>
+
+          <h2
+            className="
+              relative
+              text-[60px]
+              sm:text-[80px]
+              md:text-[110px]
+              lg:text-[180px]
+              font-bold
+              font-akshar
+              tracking-tighter
+              text-primary
+            "
+          >
+            Designer
+          </h2>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+export default Hero;

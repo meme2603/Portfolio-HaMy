@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary-cream: #faf9f6;
+  --color-secondary-red: #9c0000;
+  --color-text-black: #121212;
+
+  --font-main: "Poppins";
+  --font-logo: "Akshar";
+}

@@ -1,0 +1,12 @@
+@import "tailwindcss";
+@theme {
+  --color-primary: #9c0000;
+  --color-background: #faf9f6;
+  --color-text: #121212;
+
+  --opacity-overlay: 0.65;
+  --opacity-glass: 0.1;
+
+  --font-poppins: "Poppins", sans-serif;
+  --font-logo: "Akshar", sans-serif;
+}

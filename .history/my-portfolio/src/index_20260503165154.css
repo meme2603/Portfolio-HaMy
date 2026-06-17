@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@theme {
+  /* Phải có chữ "color-" ở giữa */
+  --color-primary-cream: #faf9f6;
+  --color-secondary-red: #9c0000;
+  --color-text-black: #121212;
+
+  /* Phải có chữ "font-" và chỉ để tên font trong ngoặc kép */
+  --font-main: "Poppins";
+  --font-logo: "Akshar";
+}
