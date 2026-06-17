@@ -76,9 +76,6 @@ export const websiteProjects = [
     // page detail
     mockupHero: portfoliomockupHero,
     mockupConcept: portfoliomockupConcept,
-    mockupIntro: portfoliomockupIntro,
-    mockupPC: portfoliomockupPC,
-    mockupMobile: portfoliomockupMobile,
 
     client: "自主制作（就職活動用）",
     proposal:

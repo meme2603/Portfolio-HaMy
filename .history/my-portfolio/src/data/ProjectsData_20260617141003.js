@@ -76,9 +76,9 @@ export const websiteProjects = [
     // page detail
     mockupHero: portfoliomockupHero,
     mockupConcept: portfoliomockupConcept,
-    mockupIntro: portfoliomockupIntro,
-    mockupPC: portfoliomockupPC,
-    mockupMobile: portfoliomockupMobile,
+    mockupIntro: portfoliomockupIntro, // Thêm dòng này
+    mockupPC: portfoliomockupPC, // Thêm dòng này
+    mockupMobile: portfoliomockupMobile, // Thêm dòng này
 
     client: "自主制作（就職活動用）",
     proposal:
