@@ -95,7 +95,7 @@ export const websiteProjects = [
     scope: "ディレクション / デザイン / コーディング",
     period: "デザイン：5週間\nコンディング：５週間\n企画・WF：4週間",
     tools: "Figma / React / Tailwind CSS /",
-    URL: "https://portfolio-ha-my.vercel.app/",
+    URL: "https://portfolio-ha-my.vercel.app/project/portfolio",
   },
   {
     id: "sneaker-lp",
