@@ -98,6 +98,38 @@ export const websiteProjects = [
     tools: "Figma / HTML / CSS / JavaScript",
     URL: "https://the-coffee-house-eight.vercel.app/",
   },
+
+  {
+    id: "sneaker-lp",
+    year: "2025",
+    title: "Sneaker LP",
+    name: "SNEAKER LANDING PAGE",
+    titleJP: "スニーカーLP",
+    desc: "新作スニーカーの販売に向けた、ランディングページを制作しました。",
+    tags: ["Figma", "HTML", "SCSS"],
+    img: sneakerthumb,
+
+    // page detail
+    mockupHero: sneakermockupHero,
+    mockupIntro: sneakermockupIntro,
+    mockupConcept: sneakermockupConcept,
+
+    proposal:
+      "新作スニーカーの魅力を伝えるランディングページです。ブランド特有の世界観を大切にしながらも、ユーザーが知りたい情報にすぐたどり着き、\n心地よくショッピングができるような分かりやすい情報設計を意識しました。",
+    target: "20代〜30代の男女スニッカーが好きな人",
+    objective:
+      "新作スニーカーの魅力を視覚的に伝え、ユーザーの「欲しい」という気持ちを刺激して、商品の購入へスムーズに誘導すること。",
+    designConcept:
+      "新作スニーカーの持つカッコよさや熱量を伝えるために全体を「赤色」にするという大胆なデザインに挑戦しました。派手な赤色の中でも、商品のスニーカーや文字がちゃんと目立つように、「黒と白」をうまく使ってメリハリをつけています。ブランドの世界観に一瞬で引き込みつつも、商品の情報や購入ボタンがパッと目に入り,お買い物をスムーズに楽しめる設計を意識しました。",
+    problem:
+      "見た目のカッコよさばかりに集中してしまい、内容のつながりが薄く、全体的に少しバラバラな印象になってしまいました。また、一番アピールしたいはずの「新商品」が十分に目立っておらず、パッと見た瞬間に「何を一番伝えたいのか」が分かりにくい画面になってしまったことが大きな反省点です。",
+    Learnings:
+      "今回の制作を通して、ただ見た目を派手にするだけでは、一番アピールしたい商品が埋もれてしまい、内容もバラバラになってしまうと気づきました。今後は、パッと見て商品が目立つ工夫をすること、そして上から下までストーリーのようにつながるレイアウトを最初にしっかり組み立ててから、デザインを作り込んでいく大切さを学びました。",
+    scope: "デザイン / コーディング",
+    period: "1週間",
+    tools: "Figma / HTML / SCSS /",
+    URL: "https://sneaker-lp-2025.vercel.app/",
+  },
   {
     id: "okayama-kankou",
     year: "2025",
@@ -130,38 +162,6 @@ export const websiteProjects = [
     period: "企画・WF：４週間\nデザイン：5週間",
     tools: "Figma / Photoshop",
     // URL: "https://okayama2026.vercel.app/",
-  },
-
-  {
-    id: "sneaker-lp",
-    year: "2025",
-    title: "Sneaker LP",
-    name: "SNEAKER LANDING PAGE",
-    titleJP: "スニーカーLP",
-    desc: "新作スニーカーの販売に向けた、ランディングページを制作しました。",
-    tags: ["Figma", "HTML", "SCSS"],
-    img: sneakerthumb,
-
-    // page detail
-    mockupHero: sneakermockupHero,
-    mockupIntro: sneakermockupIntro,
-    mockupConcept: sneakermockupConcept,
-
-    proposal:
-      "新作スニーカーの魅力を伝えるランディングページです。ブランド特有の世界観を大切にしながらも、ユーザーが知りたい情報にすぐたどり着き、\n心地よくショッピングができるような分かりやすい情報設計を意識しました。",
-    target: "20代〜30代の男女スニッカーが好きな人",
-    objective:
-      "新作スニーカーの魅力を視覚的に伝え、ユーザーの「欲しい」という気持ちを刺激して、商品の購入へスムーズに誘導すること。",
-    designConcept:
-      "新作スニーカーの持つカッコよさや熱量を伝えるために全体を「赤色」にするという大胆なデザインに挑戦しました。派手な赤色の中でも、商品のスニーカーや文字がちゃんと目立つように、「黒と白」をうまく使ってメリハリをつけています。ブランドの世界観に一瞬で引き込みつつも、商品の情報や購入ボタンがパッと目に入り,お買い物をスムーズに楽しめる設計を意識しました。",
-    problem:
-      "見た目のカッコよさばかりに集中してしまい、内容のつながりが薄く、全体的に少しバラバラな印象になってしまいました。また、一番アピールしたいはずの「新商品」が十分に目立っておらず、パッと見た瞬間に「何を一番伝えたいのか」が分かりにくい画面になってしまったことが大きな反省点です。",
-    Learnings:
-      "今回の制作を通して、ただ見た目を派手にするだけでは、一番アピールしたい商品が埋もれてしまい、内容もバラバラになってしまうと気づきました。今後は、パッと見て商品が目立つ工夫をすること、そして上から下までストーリーのようにつながるレイアウトを最初にしっかり組み立ててから、デザインを作り込んでいく大切さを学びました。",
-    scope: "デザイン / コーディング",
-    period: "1週間",
-    tools: "Figma / HTML / SCSS /",
-    URL: "https://sneaker-lp-2025.vercel.app/",
   },
 ];
 
