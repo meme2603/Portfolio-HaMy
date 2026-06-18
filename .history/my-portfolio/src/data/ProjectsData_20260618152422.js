@@ -1,6 +1,6 @@
 // projectsData.js
 // 1. Import ảnh ở đầu file để JS hiểu đường dẫn
-// import portfoliothumb from "../assets/portfoliothumb.jpg";
+import portfoliothumb from "../assets/portfoliothumb.jpg";
 import portfoliothumb2 from "../assets/portfoliothumb2.jpg";
 import coffeethumb from "../assets/coffeethumb.jpg";
 import sneakerthumb from "../assets/sneakerthumb.jpg";
@@ -72,7 +72,7 @@ export const websiteProjects = [
     titleJP: "ポートフォリオ",
     desc: "就職活動のために制作したポートフォリオサイトです。",
     tags: ["Figma", "React", "Tailwind"],
-    img: portfoliothumb2,
+    img: portfoliothumb,
 
     // page detail
     mockupHero: portfoliomockupHero,

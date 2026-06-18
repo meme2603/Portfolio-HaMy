@@ -1,6 +1,6 @@
 // projectsData.js
 // 1. Import ảnh ở đầu file để JS hiểu đường dẫn
-// import portfoliothumb from "../assets/portfoliothumb.jpg";
+import portfoliothumb from "../assets/portfoliothumb.jpg";
 import portfoliothumb2 from "../assets/portfoliothumb2.jpg";
 import coffeethumb from "../assets/coffeethumb.jpg";
 import sneakerthumb from "../assets/sneakerthumb.jpg";
