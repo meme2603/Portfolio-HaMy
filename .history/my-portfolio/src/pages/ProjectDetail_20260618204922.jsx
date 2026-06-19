@@ -135,7 +135,7 @@ function ProjectDetail() {
                   <div className="md:col-span-3 text-sm md:text-base font-bold tracking-wider text-white/90">
                     気づき・学び
                   </div>
-                  <div className="whitespace-pre-line md:col-span-9 text-sm md:text-base text-white/80 leading-relaxed font-light">
+                  <div className="md:col-span-9 text-sm md:text-base text-white/80 leading-relaxed font-light">
                     {project.Learnings || "未設定"}
                   </div>
                 </div>
@@ -292,7 +292,7 @@ function ProjectDetail() {
                   <div className="md:col-span-3 text-sm md:text-base font-bold tracking-wider text-white/90">
                     目的
                   </div>
-                  <div className="whitespace-pre-line md:col-span-9 text-sm md:text-base text-white/80 leading-relaxed font-light whitespace-pre-line">
+                  <div className="md:col-span-9 text-sm md:text-base text-white/80 leading-relaxed font-light whitespace-pre-line">
                     {project.objective || "未設定"}
                   </div>
                 </div>
@@ -301,7 +301,7 @@ function ProjectDetail() {
                   <div className="md:col-span-3 text-sm md:text-base font-bold tracking-wider text-white/90">
                     デザイン
                   </div>
-                  <div className="whitespace-pre-line md:col-span-9 text-sm md:text-base text-white/80 leading-relaxed font-light">
+                  <div className="md:col-span-9 text-sm md:text-base text-white/80 leading-relaxed font-light">
                     {project.designConcept || "未設定"}
                   </div>
                 </div>
@@ -310,7 +310,7 @@ function ProjectDetail() {
                   <div className="md:col-span-3 text-sm md:text-base font-bold tracking-wider text-white/90">
                     問題点・課題点
                   </div>
-                  <div className="whitespace-pre-line md:col-span-9 text-sm md:text-base text-white/80 leading-relaxed font-light">
+                  <div className="md:col-span-9 text-sm md:text-base text-white/80 leading-relaxed font-light">
                     {project.problem || "未設定"}
                   </div>
                 </div>
@@ -319,7 +319,7 @@ function ProjectDetail() {
                   <div className="md:col-span-3 text-sm md:text-base font-bold tracking-wider text-white/90">
                     気づき・学び
                   </div>
-                  <div className="whitespace-pre-line md:col-span-9 text-sm md:text-base text-white/80 leading-relaxed font-light">
+                  <div className="md:col-span-9 text-sm md:text-base text-white/80 leading-relaxed font-light">
                     {project.Learnings || "未設定"}
                   </div>
                 </div>

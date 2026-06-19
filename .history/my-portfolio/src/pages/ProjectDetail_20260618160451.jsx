@@ -40,7 +40,7 @@ function ProjectDetail() {
                 <h1 className="text-3xl md:text-4xl font-bold tracking-tight uppercase text-font">
                   {project.name}
                 </h1>
-                <p className="text-sm md:text-base leading-relaxed text-[#1A120B]/70 font-light pt-2">
+                <p className="text-xs md:text-sm leading-relaxed text-[#1A120B]/70 font-light pt-2">
                   {project.proposal || project.desc}
                 </p>
                 {project.URL ? (
@@ -99,7 +99,7 @@ function ProjectDetail() {
                   <div className="md:col-span-3 text-sm md:text-base font-bold tracking-wider text-white/90">
                     ターゲット
                   </div>
-                  <div className="whitespace-pre-line md:col-span-9 text-sm md:text-base text-white/80 leading-relaxed font-light">
+                  <div className="md:col-span-9 text-sm md:text-base text-white/80 leading-relaxed font-light">
                     {project.target || "未設定"}
                   </div>
                 </div>
@@ -108,7 +108,7 @@ function ProjectDetail() {
                   <div className="md:col-span-3 text-sm md:text-base font-bold tracking-wider text-white/90">
                     目的
                   </div>
-                  <div className=" whitespace-pre-line md:col-span-9 text-sm md:text-base text-white/80 leading-relaxed font-light whitespace-pre-line">
+                  <div className="md:col-span-9 text-sm md:text-base text-white/80 leading-relaxed font-light whitespace-pre-line">
                     {project.objective || "未設定"}
                   </div>
                 </div>
@@ -117,7 +117,7 @@ function ProjectDetail() {
                   <div className="md:col-span-3 text-sm md:text-base font-bold tracking-wider text-white/90">
                     デザイン
                   </div>
-                  <div className="whitespace-pre-line md:col-span-9 text-sm md:text-base text-white/80 leading-relaxed font-light">
+                  <div className="md:col-span-9 text-sm md:text-base text-white/80 leading-relaxed font-light">
                     {project.designConcept || "未設定"}
                   </div>
                 </div>
@@ -126,7 +126,7 @@ function ProjectDetail() {
                   <div className="md:col-span-3 text-sm md:text-base font-bold tracking-wider text-white/90">
                     問題点・課題点
                   </div>
-                  <div className="whitespace-pre-line md:col-span-9 text-sm md:text-base text-white/80 leading-relaxed font-light">
+                  <div className="md:col-span-9 text-sm md:text-base text-white/80 leading-relaxed font-light">
                     {project.problem || "未設定"}
                   </div>
                 </div>
@@ -135,7 +135,7 @@ function ProjectDetail() {
                   <div className="md:col-span-3 text-sm md:text-base font-bold tracking-wider text-white/90">
                     気づき・学び
                   </div>
-                  <div className="whitespace-pre-line md:col-span-9 text-sm md:text-base text-white/80 leading-relaxed font-light">
+                  <div className="md:col-span-9 text-sm md:text-base text-white/80 leading-relaxed font-light">
                     {project.Learnings || "未設定"}
                   </div>
                 </div>
@@ -223,7 +223,7 @@ function ProjectDetail() {
                 <h1 className="text-3xl md:text-4xl font-bold tracking-tight uppercase text-background font-poppins">
                   {project.title}
                 </h1>
-                <p className="text-sm md:text-base leading-relaxed text-background font-light pt-2">
+                <p className="text-xs md:text-sm leading-relaxed text-background font-light pt-2">
                   {project.proposal || project.desc}
                 </p>
                 {project.URL && (
@@ -274,79 +274,79 @@ function ProjectDetail() {
                   <div className="md:col-span-3 text-sm md:text-base font-bold tracking-wider text-white/90">
                     クライアント
                   </div>
-                  <div className="md:col-span-9 text-sm md:text-base text-white/80 leading-relaxed font-light">
+                  <div className="md:col-span-9 text-xs md:text-sm text-white/80 leading-relaxed font-light">
                     {project.client || "自主制作"}
                   </div>
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-12 gap-4 md:gap-8 py-6 items-start">
-                  <div className="md:col-span-3 text-sm md:text-base font-bold tracking-wider text-white/90">
+                  <div className="md:col-span-3 text-xs md:text-sm font-bold tracking-wider text-white/90">
                     ターゲット
                   </div>
-                  <div className="md:col-span-9 text-sm md:text-base text-white/80 leading-relaxed font-light">
+                  <div className="md:col-span-9 text-xs md:text-sm text-white/80 leading-relaxed font-light">
                     {project.target || "未設定"}
                   </div>
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-12 gap-4 md:gap-8 py-6 items-start">
-                  <div className="md:col-span-3 text-sm md:text-base font-bold tracking-wider text-white/90">
+                  <div className="md:col-span-3 text-xs md:text-sm font-bold tracking-wider text-white/90">
                     目的
                   </div>
-                  <div className="whitespace-pre-line md:col-span-9 text-sm md:text-base text-white/80 leading-relaxed font-light whitespace-pre-line">
+                  <div className="md:col-span-9 text-xs md:text-sm text-white/80 leading-relaxed font-light whitespace-pre-line">
                     {project.objective || "未設定"}
                   </div>
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-12 gap-4 md:gap-8 py-6 items-start">
-                  <div className="md:col-span-3 text-sm md:text-base font-bold tracking-wider text-white/90">
+                  <div className="md:col-span-3 text-xs md:text-sm font-bold tracking-wider text-white/90">
                     デザイン
                   </div>
-                  <div className="whitespace-pre-line md:col-span-9 text-sm md:text-base text-white/80 leading-relaxed font-light">
+                  <div className="md:col-span-9 text-xs md:text-sm text-white/80 leading-relaxed font-light">
                     {project.designConcept || "未設定"}
                   </div>
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-12 gap-4 md:gap-8 py-6 items-start">
-                  <div className="md:col-span-3 text-sm md:text-base font-bold tracking-wider text-white/90">
+                  <div className="md:col-span-3 text-xs md:text-sm font-bold tracking-wider text-white/90">
                     問題点・課題点
                   </div>
-                  <div className="whitespace-pre-line md:col-span-9 text-sm md:text-base text-white/80 leading-relaxed font-light">
+                  <div className="md:col-span-9 text-xs md:text-sm text-white/80 leading-relaxed font-light">
                     {project.problem || "未設定"}
                   </div>
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-12 gap-4 md:gap-8 py-6 items-start">
-                  <div className="md:col-span-3 text-sm md:text-base font-bold tracking-wider text-white/90">
+                  <div className="md:col-span-3 text-xs md:text-sm font-bold tracking-wider text-white/90">
                     気づき・学び
                   </div>
-                  <div className="whitespace-pre-line md:col-span-9 text-sm md:text-base text-white/80 leading-relaxed font-light">
+                  <div className="md:col-span-9 text-xs md:text-sm text-white/80 leading-relaxed font-light">
                     {project.Learnings || "未設定"}
                   </div>
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-12 gap-4 md:gap-8 py-6 items-start">
-                  <div className="md:col-span-3 text-sm md:text-base font-bold tracking-wider text-white/90">
+                  <div className="md:col-span-3 text-xs md:text-sm font-bold tracking-wider text-white/90">
                     担当範囲
                   </div>
-                  <div className="md:col-span-9 text-sm md:text-base text-white/80 leading-relaxed font-light">
+                  <div className="md:col-span-9 text-xs md:text-sm text-white/80 leading-relaxed font-light">
                     {project.scope || "未設定"}
                   </div>
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-12 gap-4 md:gap-8 py-6 items-start">
-                  <div className="md:col-span-3 text-sm md:text-base font-bold tracking-wider text-white/90">
+                  <div className="md:col-span-3 text-xs md:text-sm font-bold tracking-wider text-white/90">
                     制作期間
                   </div>
-                  <div className="md:col-span-9 text-sm md:text-base text-white/80 leading-relaxed font-light whitespace-pre-line">
+                  <div className="md:col-span-9 text-xs md:text-sm text-white/80 leading-relaxed font-light whitespace-pre-line">
                     {project.period || "未設定"}
                   </div>
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-12 gap-4 md:gap-8 py-6 items-start">
-                  <div className="md:col-span-3 text-sm md:text-base font-bold tracking-wider text-white/90">
+                  <div className="md:col-span-3 text-xs md:text-sm font-bold tracking-wider text-white/90">
                     使用ツール
                   </div>
-                  <div className="md:col-span-9 text-sm md:text-base text-white/80 leading-relaxed font-light">
+                  <div className="md:col-span-9 text-xs md:text-sm text-white/80 leading-relaxed font-light">
                     {project.tools || "Figma"}
                   </div>
                 </div>
